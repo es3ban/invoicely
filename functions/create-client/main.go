@@ -9,9 +9,9 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 	
-	"github.com/EwanValentine/invoicely/pkg/datastore"
-	"github.com/EwanValentine/invoicely/pkg/helpers"
-	"github.com/EwanValentine/invoicely/pkg/model"
+	"github.com/es3ban/invoicely/pkg/datastore"
+	"github.com/es3ban/invoicely/pkg/helpers"
+	"github.com/es3ban/invoicely/pkg/model"
 )
 
 type repository interface {
