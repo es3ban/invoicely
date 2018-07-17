@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 	
-	"github.com/EwanValentine/invoicely/pkg/model"
+	"github.com/es3ban/invoicely/pkg/model"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/stretchr/testify/assert"
 )
