@@ -30,7 +30,7 @@ package:
    
 functions:
   create-client:
-    handler: bin/functions/create-client
+    handler: bin/create-client
     # Events means http, which will create an API Gateway.
     # We pass in a few more options, such as allowing permissive CORS options,
     # the method type, and the path. The path is the URI.
